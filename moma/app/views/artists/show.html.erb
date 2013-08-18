@@ -1,0 +1,4 @@
+<%= @artist %>
+<!-- have to go into an artist to see them in order to delete them-->
+<%= link_to 'delete', @artist, :method => :delete %>
+<%= link_to 'edit', edit_artist_path(@artist) %>

@@ -1,0 +1,8 @@
+<% @books.each do |book| %>
+<ul>
+  <li><%= image_tag(book.image) %></li>
+  <li><%= link_to(book.title, book) %></li>
+   <li><%= book.genre%></li>
+</ul>
+<%end%>
+

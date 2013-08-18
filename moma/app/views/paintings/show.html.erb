@@ -1,0 +1,4 @@
+<%= @painting %>
+<!-- have to go into an artist to see them in order to delete them-->
+<%= link_to 'delete', @painting, :method => :delete %>
+<%= link_to 'edit', edit_painting_path(@painting) %>

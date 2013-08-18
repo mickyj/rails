@@ -1,0 +1,4 @@
+<% @mountains.each do |mountain| %>
+  <%= link_to(mountain.name, mountain_path(mountain.id)) %>
+  <% end %>
+

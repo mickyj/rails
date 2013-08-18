@@ -1,0 +1,11 @@
+<form action="/movie/lookup" method="get">
+    <input type="text" name="title_search" placeholder="title">
+    <button>GO!</button>
+</form>
+
+<%=@result['Title']%>
+<%=@result['Year']%>
+<%=@result['Rated']%>
+<%=@result['Director']%>
+<%=@result['Result']%>
+<img src="<%=@result['Poster']  %>">

@@ -1,0 +1,8 @@
+<form action="/stock/lookup" method="get">
+    <input type="text" name="quote_symbols" placeholder="Stock Symbol">
+    <button>GO!</button>
+</form>
+
+
+
+<%=params[:quote_symbols]%>   last traded at <%= number_to_currency(@bid)  %>
